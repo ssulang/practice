@@ -6,11 +6,11 @@ public class FunctionTest {
 		int result;
 		result = num1 + num2;
 		return result;
-	}
+	} //함수
 	
 	public static void sayHello(String greeting) {
 		System.out.println(greeting);
-	}
+	} //반환값이 없을경우 void를 사용
 	
 	public static int calcSum() {
 		
@@ -19,7 +19,7 @@ public class FunctionTest {
 		
 		for(i = 0; i<=100; i++) {
 			sum += i;
-		}
+		} //반복문
 		
 		return sum;
 	}
@@ -31,6 +31,7 @@ public class FunctionTest {
 		int n2 = 20;
 		
 		int total = addNum(n1, n2); //덧셈 메소드
+		//반환값           //변수입력
 		
 		sayHello("안녕하세요"); //출력 메소드
 		int num = calcSum(); //1~100까지의 합셈 메소드
